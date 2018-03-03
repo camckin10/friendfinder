@@ -10,7 +10,7 @@ var path = require("path");
 
 //creating instance of express
 var app = express();
-var PORT = 3000;
+var PORT = process.env.PORT || 3000;
 
 
 // Express to use parsing
