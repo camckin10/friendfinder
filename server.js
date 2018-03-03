@@ -1,3 +1,9 @@
+//current troubleshooting:
+//link return to home button --goes back to home page
+//link file to heroku 
+
+
+//dependencies
 var express = require("express");
 var bodyParser = require("body-parser");
 var path = require("path");
